@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SVProgressHUD
 
 class HomeViewController: UIViewController {
     
@@ -22,10 +23,32 @@ class HomeViewController: UIViewController {
     }
 }
 
-
 // MARK: - UIViewController lifecycle
 extension HomeViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        presenter?.delegate = self
+        presenter?.fetchProduct()
+    }
+}
+
+// MARK: - UIViewController lifecycle
+extension HomeViewController: HomePresenterDelegate {
+    func didStartLoading() {
+        showActivityIndicator()
+    }
+    
+    func didHideLoading() {
+        hideActivityIndicator()
+    }
+    
+    func didReloadData() {
+        
+    }
+    
+    func didFail(with serviceError: ServiceError) {
+        let alert = UIAlertController(title: "Erro encontrado", message: "Desculpe-nos pelo erro. Iremos contorná-lo o mais rápido possível. \nMotivo: \(serviceError.type.description)", preferredStyle: .actionSheet)
+        present(alert, animated: true, completion: nil)
     }
 }

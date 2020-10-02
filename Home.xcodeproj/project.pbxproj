@@ -26,6 +26,8 @@
 		D1A88F622527A66000EBE42E /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A88F612527A66000EBE42E /* HomePresenter.swift */; };
 		D1A88F642527A6B100EBE42E /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A88F632527A6B100EBE42E /* HomeRouter.swift */; };
 		D1A88F672527A74800EBE42E /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A88F662527A74800EBE42E /* UIViewController+Extension.swift */; };
+		D1A88F692527BBB600EBE42E /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A88F682527BBB600EBE42E /* AppEnvironment.swift */; };
+		D1A88F6B2527BE7600EBE42E /* HomeEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A88F6A2527BE7600EBE42E /* HomeEntity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +54,8 @@
 		D1A88F612527A66000EBE42E /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
 		D1A88F632527A6B100EBE42E /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
 		D1A88F662527A74800EBE42E /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		D1A88F682527BBB600EBE42E /* AppEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnvironment.swift; sourceTree = "<group>"; };
+		D1A88F6A2527BE7600EBE42E /* HomeEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeEntity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +132,7 @@
 				D1A88F2B25279ACC00EBE42E /* AppDelegate.swift */,
 				D1A88F2D25279ACC00EBE42E /* SceneDelegate.swift */,
 				D1A88F592527A55E00EBE42E /* AppRouter.swift */,
+				D1A88F682527BBB600EBE42E /* AppEnvironment.swift */,
 			);
 			path = AppSettings;
 			sourceTree = "<group>";
@@ -203,6 +208,7 @@
 		D1A88F562527A50600EBE42E /* Entity */ = {
 			isa = PBXGroup;
 			children = (
+				D1A88F6A2527BE7600EBE42E /* HomeEntity.swift */,
 			);
 			path = Entity;
 			sourceTree = "<group>";
@@ -338,11 +344,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1A88F6B2527BE7600EBE42E /* HomeEntity.swift in Sources */,
 				D1A88F492527A2D200EBE42E /* ServiceError.swift in Sources */,
 				D1A88F452527A2A000EBE42E /* Connectivity.swift in Sources */,
 				D1A88F4F2527A30C00EBE42E /* ServiceManagerProtocol.swift in Sources */,
 				D1A88F672527A74800EBE42E /* UIViewController+Extension.swift in Sources */,
 				D1A88F602527A62500EBE42E /* HomeInteractor.swift in Sources */,
+				D1A88F692527BBB600EBE42E /* AppEnvironment.swift in Sources */,
 				D1A88F4B2527A2E700EBE42E /* ServiceHTTPMethod.swift in Sources */,
 				D1A88F4D2527A2F900EBE42E /* ServiceManager.swift in Sources */,
 				D1A88F512527A31C00EBE42E /* ServiceRequest.swift in Sources */,
