@@ -1,0 +1,93 @@
+Home/Pods/Alamofire/LICENSE
+Home/Pods/Alamofire/README.md
+Home/Pods/Alamofire/Source/AFError.swift
+Home/Pods/Alamofire/Source/Alamofire.swift
+Home/Pods/Alamofire/Source/DispatchQueue+Alamofire.swift
+Home/Pods/Alamofire/Source/MultipartFormData.swift
+Home/Pods/Alamofire/Source/NetworkReachabilityManager.swift
+Home/Pods/Alamofire/Source/Notifications.swift
+Home/Pods/Alamofire/Source/ParameterEncoding.swift
+Home/Pods/Alamofire/Source/Request.swift
+Home/Pods/Alamofire/Source/Response.swift
+Home/Pods/Alamofire/Source/ResponseSerialization.swift
+Home/Pods/Alamofire/Source/Result.swift
+Home/Pods/Alamofire/Source/ServerTrustPolicy.swift
+Home/Pods/Alamofire/Source/SessionDelegate.swift
+Home/Pods/Alamofire/Source/SessionManager.swift
+Home/Pods/Alamofire/Source/TaskDelegate.swift
+Home/Pods/Alamofire/Source/Timeline.swift
+Home/Pods/Alamofire/Source/Validation.swift
+Home/Pods/AlamofireImage/LICENSE
+Home/Pods/AlamofireImage/README.md
+Home/Pods/AlamofireImage/Source/AFIError.swift
+Home/Pods/AlamofireImage/Source/Image.swift
+Home/Pods/AlamofireImage/Source/ImageCache.swift
+Home/Pods/AlamofireImage/Source/ImageDownloader.swift
+Home/Pods/AlamofireImage/Source/ImageFilter.swift
+Home/Pods/AlamofireImage/Source/Request+AlamofireImage.swift
+Home/Pods/AlamofireImage/Source/UIButton+AlamofireImage.swift
+Home/Pods/AlamofireImage/Source/UIImage+AlamofireImage.swift
+Home/Pods/AlamofireImage/Source/UIImageView+AlamofireImage.swift
+Home/Pods/Manifest.lock
+Home/Pods/Pods.xcodeproj/project.pbxproj
+Home/Pods/Pods.xcodeproj/xcuserdata/ronilsonbatista.xcuserdatad/xcschemes/Alamofire.xcscheme
+Home/Pods/Pods.xcodeproj/xcuserdata/ronilsonbatista.xcuserdatad/xcschemes/AlamofireImage.xcscheme
+Home/Pods/Pods.xcodeproj/xcuserdata/ronilsonbatista.xcuserdatad/xcschemes/Pods-Home.xcscheme
+Home/Pods/Pods.xcodeproj/xcuserdata/ronilsonbatista.xcuserdatad/xcschemes/SVProgressHUD.xcscheme
+Home/Pods/Pods.xcodeproj/xcuserdata/ronilsonbatista.xcuserdatad/xcschemes/xcschememanagement.plist
+Home/Pods/SVProgressHUD/LICENSE
+Home/Pods/SVProgressHUD/README.md
+Home/Pods/SVProgressHUD/SVProgressHUD/SVIndefiniteAnimatedView.h
+Home/Pods/SVProgressHUD/SVProgressHUD/SVIndefiniteAnimatedView.m
+Home/Pods/SVProgressHUD/SVProgressHUD/SVProgressAnimatedView.h
+Home/Pods/SVProgressHUD/SVProgressHUD/SVProgressAnimatedView.m
+Home/Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle/angle-mask.png
+Home/Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle/angle-mask@2x.png
+Home/Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle/angle-mask@3x.png
+Home/Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle/error.png
+Home/Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle/error@2x.png
+Home/Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle/error@3x.png
+Home/Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle/info.png
+Home/Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle/info@2x.png
+Home/Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle/info@3x.png
+Home/Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle/success.png
+Home/Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle/success@2x.png
+Home/Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle/success@3x.png
+Home/Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.h
+Home/Pods/SVProgressHUD/SVProgressHUD/SVProgressHUD.m
+Home/Pods/SVProgressHUD/SVProgressHUD/SVRadialGradientLayer.h
+Home/Pods/SVProgressHUD/SVProgressHUD/SVRadialGradientLayer.m
+Home/Pods/Target Support Files/Alamofire/Alamofire-Info.plist
+Home/Pods/Target Support Files/Alamofire/Alamofire-dummy.m
+Home/Pods/Target Support Files/Alamofire/Alamofire-prefix.pch
+Home/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h
+Home/Pods/Target Support Files/Alamofire/Alamofire.debug.xcconfig
+Home/Pods/Target Support Files/Alamofire/Alamofire.modulemap
+Home/Pods/Target Support Files/Alamofire/Alamofire.release.xcconfig
+Home/Pods/Target Support Files/AlamofireImage/AlamofireImage-Info.plist
+Home/Pods/Target Support Files/AlamofireImage/AlamofireImage-dummy.m
+Home/Pods/Target Support Files/AlamofireImage/AlamofireImage-prefix.pch
+Home/Pods/Target Support Files/AlamofireImage/AlamofireImage-umbrella.h
+Home/Pods/Target Support Files/AlamofireImage/AlamofireImage.debug.xcconfig
+Home/Pods/Target Support Files/AlamofireImage/AlamofireImage.modulemap
+Home/Pods/Target Support Files/AlamofireImage/AlamofireImage.release.xcconfig
+Home/Pods/Target Support Files/Pods-Home/Pods-Home-Info.plist
+Home/Pods/Target Support Files/Pods-Home/Pods-Home-acknowledgements.markdown
+Home/Pods/Target Support Files/Pods-Home/Pods-Home-acknowledgements.plist
+Home/Pods/Target Support Files/Pods-Home/Pods-Home-dummy.m
+Home/Pods/Target Support Files/Pods-Home/Pods-Home-frameworks-Debug-input-files.xcfilelist
+Home/Pods/Target Support Files/Pods-Home/Pods-Home-frameworks-Debug-output-files.xcfilelist
+Home/Pods/Target Support Files/Pods-Home/Pods-Home-frameworks-Release-input-files.xcfilelist
+Home/Pods/Target Support Files/Pods-Home/Pods-Home-frameworks-Release-output-files.xcfilelist
+Home/Pods/Target Support Files/Pods-Home/Pods-Home-frameworks.sh
+Home/Pods/Target Support Files/Pods-Home/Pods-Home-umbrella.h
+Home/Pods/Target Support Files/Pods-Home/Pods-Home.debug.xcconfig
+Home/Pods/Target Support Files/Pods-Home/Pods-Home.modulemap
+Home/Pods/Target Support Files/Pods-Home/Pods-Home.release.xcconfig
+Home/Pods/Target Support Files/SVProgressHUD/SVProgressHUD-Info.plist
+Home/Pods/Target Support Files/SVProgressHUD/SVProgressHUD-dummy.m
+Home/Pods/Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch
+Home/Pods/Target Support Files/SVProgressHUD/SVProgressHUD-umbrella.h
+Home/Pods/Target Support Files/SVProgressHUD/SVProgressHUD.debug.xcconfig
+Home/Pods/Target Support Files/SVProgressHUD/SVProgressHUD.modulemap
+Home/Pods/Target Support Files/SVProgressHUD/SVProgressHUD.release.xcconfig
