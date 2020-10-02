@@ -28,6 +28,8 @@
 		D1A88F672527A74800EBE42E /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A88F662527A74800EBE42E /* UIViewController+Extension.swift */; };
 		D1A88F692527BBB600EBE42E /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A88F682527BBB600EBE42E /* AppEnvironment.swift */; };
 		D1A88F6B2527BE7600EBE42E /* HomeEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A88F6A2527BE7600EBE42E /* HomeEntity.swift */; };
+		D1A88F6E2527CAAC00EBE42E /* SpotlightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A88F6D2527CAAC00EBE42E /* SpotlightView.swift */; };
+		D1A88F702527CABC00EBE42E /* SpotlightView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1A88F6F2527CABC00EBE42E /* SpotlightView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +58,8 @@
 		D1A88F662527A74800EBE42E /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 		D1A88F682527BBB600EBE42E /* AppEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnvironment.swift; sourceTree = "<group>"; };
 		D1A88F6A2527BE7600EBE42E /* HomeEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeEntity.swift; sourceTree = "<group>"; };
+		D1A88F6D2527CAAC00EBE42E /* SpotlightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotlightView.swift; sourceTree = "<group>"; };
+		D1A88F6F2527CABC00EBE42E /* SpotlightView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SpotlightView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +187,7 @@
 		D1A88F532527A4E500EBE42E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				D1A88F6C2527CA8300EBE42E /* CustomView */,
 				D1A88F5B2527A60700EBE42E /* HomeViewController.swift */,
 				D1A88F5C2527A60700EBE42E /* HomeViewController.xib */,
 			);
@@ -227,6 +232,23 @@
 				D1A88F662527A74800EBE42E /* UIViewController+Extension.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		D1A88F6C2527CA8300EBE42E /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				D1A88F712527CB0500EBE42E /* Spotlight */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		D1A88F712527CB0500EBE42E /* Spotlight */ = {
+			isa = PBXGroup;
+			children = (
+				D1A88F6D2527CAAC00EBE42E /* SpotlightView.swift */,
+				D1A88F6F2527CABC00EBE42E /* SpotlightView.xib */,
+			);
+			path = Spotlight;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -292,6 +314,7 @@
 				D1A88F3825279AD000EBE42E /* LaunchScreen.storyboard in Resources */,
 				D1A88F3525279AD000EBE42E /* Assets.xcassets in Resources */,
 				D1A88F5E2527A60700EBE42E /* HomeViewController.xib in Resources */,
+				D1A88F702527CABC00EBE42E /* SpotlightView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,6 +378,7 @@
 				D1A88F4D2527A2F900EBE42E /* ServiceManager.swift in Sources */,
 				D1A88F512527A31C00EBE42E /* ServiceRequest.swift in Sources */,
 				D1A88F472527A2B000EBE42E /* ServiceEncoding.swift in Sources */,
+				D1A88F6E2527CAAC00EBE42E /* SpotlightView.swift in Sources */,
 				D1A88F5D2527A60700EBE42E /* HomeViewController.swift in Sources */,
 				D1A88F642527A6B100EBE42E /* HomeRouter.swift in Sources */,
 				D1A88F622527A66000EBE42E /* HomePresenter.swift in Sources */,

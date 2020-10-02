@@ -20,7 +20,7 @@ extension UIViewController {
         if let window = UIApplication.shared.windows.filter({ $0.isKeyWindow }).first {
             loadingView.frame = window.frame
             loadingView.center = window.center
-            loadingView.backgroundColor = UIColor(hexadecimal: 0x000000).withAlphaComponent(0.5)
+            loadingView.backgroundColor = .darkGray
             loadingView.clipsToBounds = true
             loadingView.alpha = 1
             
