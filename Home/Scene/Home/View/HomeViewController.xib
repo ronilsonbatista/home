@@ -10,6 +10,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController" customModule="Home" customModuleProvider="target">
             <connections>
                 <outlet property="cashView" destination="SUg-f9-ocT" id="tPV-wU-BpL"/>
+                <outlet property="produtsView" destination="ZPH-l9-a54" id="eor-OO-j9w"/>
                 <outlet property="spotlightView" destination="Xlr-iQ-Poh" id="sgM-zB-vKN"/>
                 <outlet property="view" destination="721-yP-uOR" id="AOm-kl-yfc"/>
             </connections>
@@ -36,11 +37,11 @@
                                 <constraint firstAttribute="height" constant="120" id="L2j-lZ-yl1"/>
                             </constraints>
                         </view>
-                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZPH-l9-a54">
-                            <rect key="frame" x="0.0" y="407" width="414" height="194"/>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZPH-l9-a54" customClass="ProductView" customModule="Home" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="407" width="414" height="200"/>
                             <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             <constraints>
-                                <constraint firstAttribute="height" constant="194" id="24W-38-XHW"/>
+                                <constraint firstAttribute="height" constant="200" id="24W-38-XHW"/>
                             </constraints>
                         </view>
                     </subviews>

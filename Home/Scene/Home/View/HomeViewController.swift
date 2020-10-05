@@ -12,6 +12,7 @@ import UIKit
 class HomeViewController: UIViewController {
     @IBOutlet weak var spotlightView: SpotlightView!
     @IBOutlet weak var cashView: CashView!
+    @IBOutlet weak var produtsView: ProductView!
         
     var presenter: HomePresenter?
     
@@ -48,6 +49,7 @@ extension HomeViewController: HomePresenterDelegate {
     func didReloadData() {
         spotlightView.setupData(spotlight: presenter?.product?.spotlight)
         cashView.setupData(cash: presenter?.product?.cash)
+        produtsView.setupData(product: presenter?.product?.products)
     }
     
     func didFail(with serviceError: ServiceError) {

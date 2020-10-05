@@ -13,6 +13,10 @@
 		D1A71572252B6A5400CC325C /* NSObject+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A71571252B6A5400CC325C /* NSObject+Extension.swift */; };
 		D1A71575252B8C2500CC325C /* CashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A71574252B8C2500CC325C /* CashView.swift */; };
 		D1A71577252B8C3200CC325C /* CashView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1A71576252B8C3200CC325C /* CashView.xib */; };
+		D1A7157A252B918100CC325C /* ProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A71579252B918100CC325C /* ProductView.swift */; };
+		D1A7157D252B91DC00CC325C /* ProductView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1A7157C252B91DC00CC325C /* ProductView.xib */; };
+		D1A71580252B91F100CC325C /* ProductViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A7157E252B91F100CC325C /* ProductViewCell.swift */; };
+		D1A71581252B91F100CC325C /* ProductViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1A7157F252B91F100CC325C /* ProductViewCell.xib */; };
 		D1A88F2C25279ACC00EBE42E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A88F2B25279ACC00EBE42E /* AppDelegate.swift */; };
 		D1A88F2E25279ACC00EBE42E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A88F2D25279ACC00EBE42E /* SceneDelegate.swift */; };
 		D1A88F3525279AD000EBE42E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1A88F3425279AD000EBE42E /* Assets.xcassets */; };
@@ -46,6 +50,10 @@
 		D1A71571252B6A5400CC325C /* NSObject+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+Extension.swift"; sourceTree = "<group>"; };
 		D1A71574252B8C2500CC325C /* CashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashView.swift; sourceTree = "<group>"; };
 		D1A71576252B8C3200CC325C /* CashView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CashView.xib; sourceTree = "<group>"; };
+		D1A71579252B918100CC325C /* ProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductView.swift; sourceTree = "<group>"; };
+		D1A7157C252B91DC00CC325C /* ProductView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductView.xib; sourceTree = "<group>"; };
+		D1A7157E252B91F100CC325C /* ProductViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewCell.swift; sourceTree = "<group>"; };
+		D1A7157F252B91F100CC325C /* ProductViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductViewCell.xib; sourceTree = "<group>"; };
 		D1A88F2825279ACC00EBE42E /* Home.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Home.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1A88F2B25279ACC00EBE42E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D1A88F2D25279ACC00EBE42E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -108,6 +116,17 @@
 				D1A71576252B8C3200CC325C /* CashView.xib */,
 			);
 			path = Cash;
+			sourceTree = "<group>";
+		};
+		D1A71578252B912F00CC325C /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				D1A71579252B918100CC325C /* ProductView.swift */,
+				D1A7157C252B91DC00CC325C /* ProductView.xib */,
+				D1A7157E252B91F100CC325C /* ProductViewCell.swift */,
+				D1A7157F252B91F100CC325C /* ProductViewCell.xib */,
+			);
+			path = Product;
 			sourceTree = "<group>";
 		};
 		D1A88F1F25279ACC00EBE42E = {
@@ -258,6 +277,7 @@
 			isa = PBXGroup;
 			children = (
 				D1A71573252B8C0800CC325C /* Cash */,
+				D1A71578252B912F00CC325C /* Product */,
 				D1A88F712527CB0500EBE42E /* Spotlight */,
 			);
 			path = CustomView;
@@ -334,12 +354,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1A71581252B91F100CC325C /* ProductViewCell.xib in Resources */,
 				D1A88F3825279AD000EBE42E /* LaunchScreen.storyboard in Resources */,
 				D1A88F3525279AD000EBE42E /* Assets.xcassets in Resources */,
 				D1A88F5E2527A60700EBE42E /* HomeViewController.xib in Resources */,
 				D1A71570252B6A1800CC325C /* SpotlightViewCell.xib in Resources */,
 				D1A88F702527CABC00EBE42E /* SpotlightView.xib in Resources */,
 				D1A71577252B8C3200CC325C /* CashView.xib in Resources */,
+				D1A7157D252B91DC00CC325C /* ProductView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,6 +432,8 @@
 				D1A88F622527A66000EBE42E /* HomePresenter.swift in Sources */,
 				D1A71572252B6A5400CC325C /* NSObject+Extension.swift in Sources */,
 				D1A88F5A2527A55E00EBE42E /* AppRouter.swift in Sources */,
+				D1A71580252B91F100CC325C /* ProductViewCell.swift in Sources */,
+				D1A7157A252B918100CC325C /* ProductView.swift in Sources */,
 				D1A88F2C25279ACC00EBE42E /* AppDelegate.swift in Sources */,
 				D1A88F2E25279ACC00EBE42E /* SceneDelegate.swift in Sources */,
 				D1A7156F252B6A1800CC325C /* SpotlightViewCell.swift in Sources */,
