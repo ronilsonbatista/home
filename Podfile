@@ -7,6 +7,5 @@ target 'Home' do
 
   	pod 'Alamofire', '~> 4.7'
 	pod 'AlamofireImage', '~> 3.5'
-	pod 'SVProgressHUD'
 
 end

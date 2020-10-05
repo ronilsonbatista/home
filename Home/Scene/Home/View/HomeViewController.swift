@@ -7,9 +7,10 @@
 //
 
 import UIKit
-import SVProgressHUD
 
+// MARK: - Main
 class HomeViewController: UIViewController {
+    @IBOutlet weak var spotlightView: SpotlightView!
     
     var presenter: HomePresenter?
     
@@ -44,7 +45,7 @@ extension HomeViewController: HomePresenterDelegate {
     }
     
     func didReloadData() {
-        
+        spotlightView.setupData(spotlight: presenter?.product?.spotlight)
     }
     
     func didFail(with serviceError: ServiceError) {

@@ -9,7 +9,7 @@
 import Foundation
 
 // MARK: - Home
-struct Home: Codable {
+struct HomeEntity: Codable {
     let spotlight: [Spotlight]
     let products: [Product]
     let cash: Cash

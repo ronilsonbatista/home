@@ -10,7 +10,7 @@ import Foundation
 
 // MARK: - HomeInteractorDelegate
 protocol HomeInteractorDelegate: class {
-    func productFetched(with product: Home)
+    func productFetched(with product: HomeEntity)
     func handleFailure(with serviceError: ServiceError)
 }
 
@@ -23,7 +23,7 @@ class HomeInteractor {
 
         ServiceRequest.shared.request(method: .get, url: serviceUrl, parameters: nil, encoding: .default, success: { result in
             do {
-                let typesPokemons = try JSONDecoder().decode(Home.self, from: result)
+                let typesPokemons = try JSONDecoder().decode(HomeEntity.self, from: result)
                 self.delegate?.productFetched(with: typesPokemons)
             } catch {
                 self.delegate?.handleFailure(with: .init(type: .notMapped))

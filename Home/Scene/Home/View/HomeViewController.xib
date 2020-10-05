@@ -7,20 +7,25 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController" customModule="Home" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController" customModule="Home" customModuleProvider="target">
+            <connections>
+                <outlet property="spotlightView" destination="Xlr-iQ-Poh" id="sgM-zB-vKN"/>
+                <outlet property="view" destination="721-yP-uOR" id="AOm-kl-yfc"/>
+            </connections>
+        </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" restorationIdentifier="BirthDateRPViewController" id="721-yP-uOR">
+        <view contentMode="scaleToFill" id="721-yP-uOR">
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KSL-af-K1J">
                     <rect key="frame" x="0.0" y="44" width="414" height="852"/>
                     <subviews>
-                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xlr-iQ-Poh">
-                            <rect key="frame" x="0.0" y="0.0" width="414" height="262"/>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xlr-iQ-Poh" customClass="SpotlightView" customModule="Home" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="269"/>
                             <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             <constraints>
-                                <constraint firstAttribute="height" constant="262" id="1Mx-uD-U3T"/>
+                                <constraint firstAttribute="height" constant="269" id="1Mx-uD-U3T"/>
                             </constraints>
                         </view>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SUg-f9-ocT">
@@ -42,7 +47,7 @@
                     <gestureRecognizers/>
                     <constraints>
                         <constraint firstAttribute="bottom" secondItem="ZPH-l9-a54" secondAttribute="bottom" constant="40" id="ADJ-h9-T6v"/>
-                        <constraint firstItem="SUg-f9-ocT" firstAttribute="top" secondItem="Xlr-iQ-Poh" secondAttribute="bottom" constant="10" id="ATO-jN-YQb"/>
+                        <constraint firstItem="SUg-f9-ocT" firstAttribute="top" secondItem="Xlr-iQ-Poh" secondAttribute="bottom" constant="3" id="ATO-jN-YQb"/>
                         <constraint firstItem="Xlr-iQ-Poh" firstAttribute="top" secondItem="KSL-af-K1J" secondAttribute="top" id="M3e-sS-Qco"/>
                         <constraint firstItem="ZPH-l9-a54" firstAttribute="top" secondItem="SUg-f9-ocT" secondAttribute="bottom" constant="15" id="Wj1-lQ-15b"/>
                         <constraint firstItem="Xlr-iQ-Poh" firstAttribute="centerX" secondItem="KSL-af-K1J" secondAttribute="centerX" id="bXu-BB-i2g"/>

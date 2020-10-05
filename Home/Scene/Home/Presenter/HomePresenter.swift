@@ -22,7 +22,7 @@ class HomePresenter {
     
     private var interactor: HomeInteractor?
     private var router: HomeRouter?
-    private(set) var product: Home?
+    private(set) var product: HomeEntity?
     
     init(interactor: HomeInteractor, router: HomeRouter) {
         interactor.delegate = self
@@ -38,7 +38,8 @@ class HomePresenter {
 
 // MARK: - HomeInteractorDelegate
 extension HomePresenter: HomeInteractorDelegate {
-    func productFetched(with product: Home) {
+    func productFetched(with product: HomeEntity) {
+        self.product = product
         delegate?.didHideLoading()
         delegate?.didReloadData()
     }
