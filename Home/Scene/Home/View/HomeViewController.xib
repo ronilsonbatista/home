@@ -9,6 +9,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController" customModule="Home" customModuleProvider="target">
             <connections>
+                <outlet property="cashView" destination="SUg-f9-ocT" id="tPV-wU-BpL"/>
                 <outlet property="spotlightView" destination="Xlr-iQ-Poh" id="sgM-zB-vKN"/>
                 <outlet property="view" destination="721-yP-uOR" id="AOm-kl-yfc"/>
             </connections>
@@ -28,15 +29,15 @@
                                 <constraint firstAttribute="height" constant="269" id="1Mx-uD-U3T"/>
                             </constraints>
                         </view>
-                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SUg-f9-ocT">
-                            <rect key="frame" x="0.0" y="272" width="414" height="194"/>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SUg-f9-ocT" customClass="CashView" customModule="Home" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="272" width="414" height="120"/>
                             <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             <constraints>
-                                <constraint firstAttribute="height" constant="194" id="L2j-lZ-yl1"/>
+                                <constraint firstAttribute="height" constant="120" id="L2j-lZ-yl1"/>
                             </constraints>
                         </view>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZPH-l9-a54">
-                            <rect key="frame" x="0.0" y="481" width="414" height="194"/>
+                            <rect key="frame" x="0.0" y="407" width="414" height="194"/>
                             <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="194" id="24W-38-XHW"/>

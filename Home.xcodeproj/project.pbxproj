@@ -11,6 +11,8 @@
 		D1A7156F252B6A1800CC325C /* SpotlightViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A7156D252B6A1800CC325C /* SpotlightViewCell.swift */; };
 		D1A71570252B6A1800CC325C /* SpotlightViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1A7156E252B6A1800CC325C /* SpotlightViewCell.xib */; };
 		D1A71572252B6A5400CC325C /* NSObject+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A71571252B6A5400CC325C /* NSObject+Extension.swift */; };
+		D1A71575252B8C2500CC325C /* CashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A71574252B8C2500CC325C /* CashView.swift */; };
+		D1A71577252B8C3200CC325C /* CashView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1A71576252B8C3200CC325C /* CashView.xib */; };
 		D1A88F2C25279ACC00EBE42E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A88F2B25279ACC00EBE42E /* AppDelegate.swift */; };
 		D1A88F2E25279ACC00EBE42E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A88F2D25279ACC00EBE42E /* SceneDelegate.swift */; };
 		D1A88F3525279AD000EBE42E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1A88F3425279AD000EBE42E /* Assets.xcassets */; };
@@ -42,6 +44,8 @@
 		D1A7156D252B6A1800CC325C /* SpotlightViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotlightViewCell.swift; sourceTree = "<group>"; };
 		D1A7156E252B6A1800CC325C /* SpotlightViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SpotlightViewCell.xib; sourceTree = "<group>"; };
 		D1A71571252B6A5400CC325C /* NSObject+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+Extension.swift"; sourceTree = "<group>"; };
+		D1A71574252B8C2500CC325C /* CashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashView.swift; sourceTree = "<group>"; };
+		D1A71576252B8C3200CC325C /* CashView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CashView.xib; sourceTree = "<group>"; };
 		D1A88F2825279ACC00EBE42E /* Home.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Home.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1A88F2B25279ACC00EBE42E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D1A88F2D25279ACC00EBE42E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -95,6 +99,15 @@
 				45F36758E0F3D3C6F7DFCDA3 /* Pods_Home.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D1A71573252B8C0800CC325C /* Cash */ = {
+			isa = PBXGroup;
+			children = (
+				D1A71574252B8C2500CC325C /* CashView.swift */,
+				D1A71576252B8C3200CC325C /* CashView.xib */,
+			);
+			path = Cash;
 			sourceTree = "<group>";
 		};
 		D1A88F1F25279ACC00EBE42E = {
@@ -244,6 +257,7 @@
 		D1A88F6C2527CA8300EBE42E /* CustomView */ = {
 			isa = PBXGroup;
 			children = (
+				D1A71573252B8C0800CC325C /* Cash */,
 				D1A88F712527CB0500EBE42E /* Spotlight */,
 			);
 			path = CustomView;
@@ -325,6 +339,7 @@
 				D1A88F5E2527A60700EBE42E /* HomeViewController.xib in Resources */,
 				D1A71570252B6A1800CC325C /* SpotlightViewCell.xib in Resources */,
 				D1A88F702527CABC00EBE42E /* SpotlightView.xib in Resources */,
+				D1A71577252B8C3200CC325C /* CashView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,6 +396,7 @@
 				D1A88F492527A2D200EBE42E /* ServiceError.swift in Sources */,
 				D1A88F452527A2A000EBE42E /* Connectivity.swift in Sources */,
 				D1A88F4F2527A30C00EBE42E /* ServiceManagerProtocol.swift in Sources */,
+				D1A71575252B8C2500CC325C /* CashView.swift in Sources */,
 				D1A88F672527A74800EBE42E /* UIViewController+Extension.swift in Sources */,
 				D1A88F602527A62500EBE42E /* HomeInteractor.swift in Sources */,
 				D1A88F692527BBB600EBE42E /* AppEnvironment.swift in Sources */,
